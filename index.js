@@ -210,3 +210,5 @@ app.delete("/recipes/:recipeId", async (req, res) => {
 // app.listen(PORT, () => {
 //   console.log(`You are connected to the ${PORT} sucessfully`);
 // });
+
+module.exports = app;
